@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Lecture 2</title>
+    <!-- taliwand cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <!-- custom css  -->
+    <link rel="stylesheet" href="style.css">
+    <!-- font awsome -->
+    <script src="https://kit.fontawesome.com/4522710339.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="bg-neutral-800">
+    <!--*========================================== NAVBAR ==========================================*-->
+    <nav class="bg-transparent py-3 text-white pr-20 flex justify-between">
+        <span class="cursor-pointer logo text-2xl flex items-center mx-3">Shekhar</span>
+        <ul class="nav flex space-x-8 justify-end ">
+            <li class="cursor-pointer hover:text-rose-500">Home</li>
+            <li class="cursor-pointer hover:text-rose-500">About</li>
+            <li class="cursor-pointer hover:text-rose-500">Event</li>
+            <li class="cursor-pointer hover:text-rose-500">Community</li>
+            <li class="cursor-pointer hover:text-rose-500">Contact</li>
+            <div class="container-1">
+                <input type="search" class="rounded-xl bg-slate-800 ml-1 text-sm py-1" id="search" placeholder="  Search..." />
+                <span class="icon"><i class="fa fa-search cursor-pointer"></i></span>
+            </div>
+            <li class="cursor-pointer hover:text-rose-500"><i class="fa-regular fa-user"></i></li>
+        </ul>
+    </nav>
+    <!--*========================================== CONTAINER ==========================================*-->
+    <main class="text-violet-300 flex justify-around">
+        <!-- left div  -->
+        <div class="main py-40 pl-20">
+            <div class="left-header text-6xl">
+                WE TRANSPORT YOU NEW WOLRDS
+            </div>
+            <p class="text-white py-3 w-1/2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div class="my-4">
+                <button
+                    class="bg-teal-400 text-slate-900 px-3 py-2 rounded-xl hover:last:text-white hover:bg-indigo-600">Get
+                    Your Ticket</button>
+            </div>
+            <p class="text-xl text-yellow-200 "><a href="#">www.msitfest.com</a></p>
+            <div class="contact-icon">
+                <ul class="flex space-x-3 text-2xl text-white ">
+                    <li class="hover:text-rose-500"><a href="#"><i class="fa-brands fa-github"></i></a></li>
+                    <li class="hover:text-rose-500"><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li class="hover:text-rose-500"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- right div  -->
+        <div class="flex items-center main-right-image relative mr-6">
+            <img src="./assets/main-img.png" alt="Background Image">
+        </div>
+    </main>
+
+</body>
+
+</html>

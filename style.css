@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+}
+.logo{
+    font-family: 'Caveat', cursive;
+}
+.nav{
+    font-family: 'Rajdhani', sans-serif;
+}
+.left-header {
+    width: 38rem;
+    font-family: 'Rajdhani', sans-serif;
+}
+.main-right-image img{
+    /* width: 100rem; */
+    height: 36rem;
+    width: 1400px;
+}
+p{
+    font-family: 'Rajdhani', sans-serif;
+}
